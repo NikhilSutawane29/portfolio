@@ -29,7 +29,7 @@ const About = () => {
               <Typewriter
                 options={{
                   strings: [
-                    "Fullstack Developer",
+                    "Full Stack Developer",
                     "Web Designer",
                     "UI/UX Designer",
                     "Coder",
