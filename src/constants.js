@@ -32,6 +32,11 @@ import netlifyLogo from "./assets/netlify-CdgZKT40.png";
 import vercelLogo from "./assets/vercel-B3cpfMqI.png";
 import postgreLogo from "./assets/postgre-D8JQljwx.png";
 import csharpLogo from "./assets/csharp-Dv0bCWsP.png";
+import redis from "./assets/redis.png"
+import docker from "./assets/docker-removebg-preview.png"
+import cicd from "./assets/cicd-logo.png"
+import kubernetes from "./assets/kuber.png"
+import aws from "./assets/aws.png"
 
 // Experience Section Logo's
 import webverseLogo from "./assets/webverse_logo-ChR_IocP.png";
@@ -75,13 +80,13 @@ export const SkillsInfo = [
   {
     title: "Backend",
     skills: [
-      { name: "Springboot", logo: springbootLogo },
       { name: "Node JS", logo: nodejsLogo },
       { name: "Express JS", logo: expressjsLogo },
       { name: "MySQL", logo: mysqlLogo },
       { name: "MongoDB", logo: mongodbLogo },
       { name: "Firebase", logo: firebaseLogo },
       { name: "PostgreSQL", logo: postgreLogo },
+      { name: "Redis", logo: redis },
     ],
   },
   {
@@ -89,11 +94,8 @@ export const SkillsInfo = [
     skills: [
       { name: "C", logo: cLogo },
       { name: "C++", logo: cppLogo },
-      { name: "Java", logo: javaLogo },
       { name: "Python", logo: pythonLogo },
-      { name: "C-Sharp", logo: csharpLogo },
       { name: "JavaScript", logo: javascriptLogo },
-      { name: "TypeScript", logo: typescriptLogo },
     ],
   },
   {
@@ -105,8 +107,16 @@ export const SkillsInfo = [
       { name: "Postman", logo: postmanLogo },
       { name: "Compass", logo: mcLogo },
       { name: "Vercel", logo: vercelLogo },
-      { name: "Netlify", logo: netlifyLogo },
       { name: "Figma", logo: figmaLogo },
+    ],
+  },
+  {
+    title: "Deployment",
+    skills: [
+      { name: "Docker", logo: docker },
+      { name: "CI/CD", logo: cicd },
+      { name: "Kubernetes", logo: kubernetes },
+      { name: "AWS", logo: aws },
     ],
   },
 ];
