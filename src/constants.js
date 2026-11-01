@@ -127,6 +127,7 @@ export const experiences = [
     img: webverseLogo,
     role: "Fullstack Developer",
     company: "Infosys Springboard",
+    type: "internship",
     mode: "remote",
     date: "April 2024 - Present",
     desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
@@ -140,18 +141,43 @@ export const experiences = [
       "Tailwind CSS",
       "MongoDb",
       "Redux",
-      " Next Js",
     ],
+    certificateUrl: "https://drive.google.com/file/d/1N4pSHwH5eg7FGAK9gS5w1XORii58syPm/view?usp=drive_link",
   },
   {
     id: 1,
     img: newtonschoolLogo,
     role: "Frontend Intern",
     company: "sololearn",
+    type: "internship",
     mode: "remote",
     date: "September 2021 - August 2022",
     desc: "Worked as a Frontend Developer Intern, designing and implementing scalable UI components and responsive websites using HTML, CSS, JavaScript, Bootstrap, and Material UI. Collaborated with the design team to translate wireframes and prototypes from Figma into interactive, user-friendly web pages.",
     skills: ["HTML", "CSS", "Javascript", "Bootstrap", "Figma", "Material UI"],
+    certificateUrl: "",
+  },
+];
+
+export const achievements = [
+  {
+    id: 0,
+    title: "Infosys Springboard Certificate",
+    issuer: "Infosys Springboard",
+    category: "Certification",
+    description:
+      "Certificate earned through the Infosys Springboard learning program.",
+    certificateUrl:
+      "https://drive.google.com/file/d/1N4pSHwH5eg7FGAK9gS5w1XORii58syPm/view?usp=drive_link",
+  },
+  {
+    id: 1,
+    title: "Delta MERN Stack Course",
+    issuer: "Apna College",
+    category: "Certification",
+    description:
+      "Completed a course focused on developing full-stack web applications with the MERN stack.",
+    certificateUrl:
+      "https://drive.google.com/file/d/15S4A1l9-ON2uHl4vSC22gXq30p7G3jkX/view?usp=drive_link",
   },
 ];
 
@@ -188,15 +214,6 @@ export const upcomingFreelanceWork = {
 
 export const education = [
   {
-    id: 0,
-    img: glaLogo,
-    school: "KPGU University, Vadodara",
-    date: "Sept 2021 - Aug 2024",
-    grade: "8.32 CGPA",
-    desc: "I have completed my Diploma degree in Computer Science and Engineering from KPGU University, Vadodara. During my time at KPGU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at KPGU University has been instrumental in shaping my technical abilities and professional growth.",
-    degree: "Diploma in Computer Science and Engineering",
-  },
-  {
     id: 1,
     img: bsaLogo,
     school: "KPGU University, Vadodara",
@@ -204,6 +221,15 @@ export const education = [
     grade: "8.10 CGPA",
     desc: "I completed my BTech in Computer Science and Engineering from KPGU College, Vadodara. Throughout my studies, I was immersed in a variety of subjects that deepened my understanding of computing and technology. From exploring Data Structures and Algorithms to diving into Web Development and Database Management Systems, I gained practical insights into the world of software development. My time at KPGU College allowed me to work on projects that applied theoretical concepts to real-world problems.",
     degree: "Bachelor of Technology - B.Tech (Computer Science)",
+  },
+  {
+    id: 0,
+    img: glaLogo,
+    school: "KPGU University, Vadodara",
+    date: "Sept 2021 - Aug 2024",
+    grade: "8.32 CGPA",
+    desc: "I have completed my Diploma degree in Computer Science and Engineering from KPGU University, Vadodara. During my time at KPGU, I gained a strong foundation in programming, software development, and computer science principles. I have studied courses such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Web Development, and Software Engineering. I actively participated in various workshops and technical events, which enhanced my skills and knowledge. My experience at KPGU University has been instrumental in shaping my technical abilities and professional growth.",
+    degree: "Diploma in Computer Science and Engineering",
   },
   {
     id: 2,

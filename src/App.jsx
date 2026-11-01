@@ -8,6 +8,7 @@ import Education from "./components/Education/Education";
 import Skills from "./components/Skills/Skills";
 import Experience from "./components/Experience/Experience";
 import FreelanceWork from "./components/FreelanceWork/FreelanceWork";
+import Achievements from "./components/Achievements/Achievements";
 import BlurBlob from "./BlurBlob";
 
 import "./App.css";
@@ -26,6 +27,7 @@ function App() {
         <Skills />
         <Experience />
         <FreelanceWork />
+        <Achievements />
         <Work />
         <Education />
         <Contact />
