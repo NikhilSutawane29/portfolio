@@ -37,6 +37,10 @@ import docker from "./assets/docker-removebg-preview.png"
 import cicd from "./assets/cicd-logo.png"
 import kubernetes from "./assets/kuber.png"
 import aws from "./assets/aws.png"
+import langChain from "./assets/langChain.png"
+import langGraph from "./assets/langgraph.png"
+import rag from "./assets/rag.png"
+import vectordb from "./assets/vectordb.jpeg"
 
 // Experience Section Logo's
 import webverseLogo from "./assets/webverse_logo-ChR_IocP.png";
@@ -114,6 +118,15 @@ export const SkillsInfo = [
       { name: "CI/CD", logo: cicd },
       { name: "Kubernetes", logo: kubernetes },
       { name: "AWS", logo: aws },
+    ],
+  },
+  {
+    title: "AI Concepts",
+    skills: [
+      { name: "LangChain", logo: langChain },
+      { name: "LangGraph", logo: langGraph },
+      { name: "RAG", logo: rag },
+      { name: "VectorDB", logo: vectordb },
     ],
   },
 ];
